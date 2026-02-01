@@ -1,0 +1,10 @@
+/* put this at the top of your index.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* if you have a fixed navbar, add this so anchored sections don't hide under it */
+:root { --nav-height: 72px; } /* set to your navbar height */
+section {
+  scroll-margin-top: var(--nav-height);
+} 
