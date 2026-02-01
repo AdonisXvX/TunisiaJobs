@@ -23,7 +23,7 @@ const Pricing = ({
     {
       id: 'basic',
       name: 'Basic',
-      price: '29',
+      price: '15',
       period: 'month',
       features: [
         'Apply to 10 jobs/month',
@@ -36,7 +36,7 @@ const Pricing = ({
     {
       id: 'premium',
       name: 'Premium',
-      price: '59',
+      price: '25',
       period: 'month',
       features: [
         'Unlimited applications',
@@ -51,7 +51,7 @@ const Pricing = ({
     {
       id: 'enterprise',
       name: 'Enterprise',
-      price: '99',
+      price: '50',
       period: 'month',
       features: [
         'Everything in Premium',
